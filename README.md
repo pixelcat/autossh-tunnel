@@ -10,6 +10,7 @@ This image provides support for creating a tunnel to a remote host.
 |`AUTOSSH_LOCAL_PORT`|{number}|The port on the local system to expose|
 |`AUTOSSH_TUNNEL_HOST`|hostname|The host to tunnel. In ssh parlance, this is the host passed to the -L option.|
 |`AUTOSSH_TARGET_HOST`|hostname|The host to connect through. In ssh parlance, this would be the host SSH connects to.|
+|`AUTOSSH_TARGET_PORT`|{nuumber}|The port on the target host to connect to where ssh is running. In ssh parlance, this would be the -p option.|
 |`AUTOSSH_USER`| username |The user to connect as.
 |`AUTOSSH_OPTS`| | List of additional arguments to pass to SSH.|
 
